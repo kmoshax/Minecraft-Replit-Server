@@ -34,13 +34,13 @@ fi
 
 if [[ "$response" =~ ^([3][eE][sS]|[3])$ ]]
 then
-    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/raw/main/vanila/server.sh
+    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/vanila/server.sh
     bash server.sh
 fi
 
 if [[ "$response" =~ ^([4][eE][sS]|[4])$ ]]
 then
-    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/raw/main/spigot/server.sh
+    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/spigot/server.sh
     bash server.sh
 fi
 
