@@ -8,17 +8,17 @@ RAM=200m
 
 download() {
     set -e
-    echo -e "\e[1;33mfdmz17@script~\e[0m" Running agreement script...
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" ---------- Script version: 1.2  ----------
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" By executing this script you agree to:
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" The MIT license
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" The JRE License 
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" The PaperMC license
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" The Mojang Minecraft EULA.
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Press Enter to agree, press Ctrl+C if you do not agree to any of these licenses.
+    echo -e "\e[1;33mkmosha@script~\e[0m" Running agreement script...
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" ---------- Script version: 1.2  ----------
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" By executing this script you agree to:
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" The MIT license
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" The JRE License 
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" The PaperMC license
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" The Mojang Minecraft EULA.
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" Press Enter to agree, press Ctrl+C if you do not agree to any of these licenses.
     read     -s agree_text
-    echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Thank you \for agreeing, the download will now begin.
-    echo -e "\e[1;33mfdmz17@script~\e[0m" Running setup script...
+    echo -e "\e[1;33m[KmoSha Script]:\e[0m" Thank you \for agreeing, the download will now begin.
+    echo -e "\e[1;33mkmosha@script~\e[0m" Running setup script...
     wget -O server.jar "https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/jar/server.jar"
     echo Paper downloaded
     wget -O server.properties "https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/server.properties"
@@ -90,20 +90,20 @@ echo "Minecraft server ip: $server_ip" > $root/server_ip.txt
 
 touch logs/latest.log
 
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Checking requirement file...
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Running startup script...
-echo -e "\e[1;33mfdmz17@script~\e[0m" Starting server...
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Starting server at: $server_ip
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Create file wth name backup.me to backup your server data
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Checking requirement file...
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Running startup script...
+echo -e "\e[1;33mkmosha@script~\e[0m" Starting server...
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Starting server at: $server_ip
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Create file wth name backup.me to backup your server data
 
 #Java startup argument
 java -Xms128M -Xmx200M -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
 
-echo -e "\e[1;33mfdmz17@script~\e[0m" Stopping server...
+echo -e "\e[1;33mkmosha@script~\e[0m" Stopping server...
 echo
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" ---------- Stopping server... ----------
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Exit code: $?
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Thank you for using my script
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Script version: 1.5
-echo -e "\e[1;33m[FDMZ17 Script]:\e[0m" Stopping server...
-echo -e "\e[1;33mfdmz17@script~\e[0m" Server offline...
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" ---------- Stopping server... ----------
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Exit code: $?
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Thank you for using my script
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Script version: 1.5
+echo -e "\e[1;33m[KmoSha Script]:\e[0m" Stopping server...
+echo -e "\e[1;33mkmosha@script~\e[0m" Server offline...
