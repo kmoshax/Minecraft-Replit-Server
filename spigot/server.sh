@@ -99,7 +99,7 @@ echo -e "\e[1;33m[KmoSha Script]:\e[0m" Starting server at: $server_ip
 echo -e "\e[1;33m[KmoSha Script]:\e[0m" Create file wth name backup.me to backup your server data
 
 #Java startup argument
-java -Xms128M -Xmx200M -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar
+java -Xms128M -Xmx200M -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar nogui
 
 echo -e "\e[1;33mkmosha@script~\e[0m" Stopping server...
 echo
