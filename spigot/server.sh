@@ -21,7 +21,7 @@ download() {
     read     -s agree_text
     echo -e "\e[1;33m[KmoSha Script]:\e[0m" Thank you \for agreeing, the download will now begin.
     echo -e "\e[1;33mkmosha@script~\e[0m" Running setup script...
-    wget -O server.jar "https://api.purpurmc.org/v2/purpur/1.20.1/2005/download"
+    wget -O server.jar "https://download.getbukkit.org/spigot/spigot-1.20.1.jar"
     echo Paper downloaded
     wget -O server.properties "https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/server.properties"
     echo Server properties downloaded
