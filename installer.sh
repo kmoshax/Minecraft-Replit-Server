@@ -1,3 +1,4 @@
+#!/bin/bash
 echo -e "\e[1;34m==================================\e[0m"
 echo " ___  ___   __  __  ____  _  ____  
 | __||   \ |  \/  ||_  / / ||__  | 
@@ -20,19 +21,19 @@ Choose a Number from 1 to 4.
 > " response
 if [[ "$response" =~ ^([1][eE][sS]|[1])$ ]]
 then
-    wget https://raw.githubusercontent.com/FDMZ17/replit-minecraft-server-file/main/paper/server.sh
+    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/paper/server.sh
     bash server.sh
 fi    
 
 if [[ "$response" =~ ^([2][eE][sS]|[2])$ ]]
 then
-    wget https://raw.githubusercontent.com/FDMZ17/replit-minecraft-server-file/main/purpur/server.sh
+    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/main/purpur/server.sh
     bash server.sh
 fi
 
 if [[ "$response" =~ ^([3][eE][sS]|[3])$ ]]
 then
-    wget https://raw.githubusercontent.com/FDMZ17/replit-minecraft-server-file/raw/main/vanila/server.sh
+    wget https://raw.githubusercontent.com/kmoshax/Minecraft-Replit-Server/raw/main/vanila/server.sh
     bash server.sh
 fi
 

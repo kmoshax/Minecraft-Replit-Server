@@ -1,3 +1,4 @@
+#!/bin/bash
 FILE=backup.me
 if [ -f $FILE ]; then
    echo -e "\e[1;33mkmosha@script~\e[0m" Starting backup script...
